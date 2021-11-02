@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtSettingCaptain"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="BAR CHART SCREEN"-->
+<!--        android:textSize="30dp">-->
+<!--    </TextView>-->
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:layout_gravity="center_horizontal"
+        android:text="BACK" />
+
+    <!-- Add a Horizontal Bar Chart using MPAndroidChart library -->
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/bar_chart"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+
+</LinearLayout>
