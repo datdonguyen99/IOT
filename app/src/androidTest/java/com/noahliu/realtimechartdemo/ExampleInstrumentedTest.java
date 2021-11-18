@@ -1,4 +1,4 @@
-package com.example.fragment;
+package com.noahliu.realtimechartdemo;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.fragment", appContext.getPackageName());
+        assertEquals("com.noahliu.realtimechartdemo", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.example.fragment;
+package com.noahliu.realtimechartdemo;
 
 import org.junit.Test;
 
